@@ -10,7 +10,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "test": "jest"
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "lint-fix": "eslint --ext .js,.vue --ignore-path .gitignore . --fix"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
